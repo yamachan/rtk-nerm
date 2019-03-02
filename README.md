@@ -4,7 +4,7 @@ NERM stands for Node.js, Express, React and Material-UI. The repository is a sim
 
 This repository was made as a sample package for the following (Japanese) tutorial page.
 
-* [browserify+babelifyでReactアプリをトランスコンパイルできるシンプルなビルド環境を用意する](https://qiita.com/yamachan360/items/1ad29bf8a64e50801ca9)
+* [NERM (Node.js + Express + React + Material-UI) ベースなWebアプリ開発用のシンプルなビルド環境 2019年3月版](https://qiita.com/yamachan360/items/7892084573abda091dee)
 
 # How to build
 

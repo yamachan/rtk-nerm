@@ -12,6 +12,8 @@ This repository was made as a sample package for the following (Japanese) tutori
 npm run build
 ```
 
+Please check the `public/App.js` file is created/updated.
+
 # How to start the application
 
 For the local environment, type the following command, then open http://localhost:3000/ by web browser.
@@ -34,7 +36,7 @@ If you want to create a new repository from scratch, please type the following c
 ```
 npm init -y
 npm install --save express
-npm install --save react react-dom @material-ui/core
+npm install --save react react-dom @material-ui/core @material-ui/icons
 npm install --save-dev browserify babelify
 npm install --save-dev @babel/core @babel/preset-env @babel/preset-react
 ```

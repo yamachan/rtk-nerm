@@ -1,0 +1,24 @@
+{
+  "name": "rtk-nerm",
+  "version": "1.0.0",
+  "description": "Simple transcode environment for NERM (Node.js + Express + React + Material-UI) application.",
+  "scripts": {
+    "build": "browserify -t [ babelify --presets [ @babel/preset-env @babel/preset-react ] ] src/App.js -o public/App.js",
+    "run": "node Server.js"
+  },
+  "author": "yamachan / Toshio Yamashita",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "express": "^4.16.4",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3"
+  }
+}

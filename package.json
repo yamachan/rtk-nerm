@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple transcode environment for NERM (Node.js + Express + React + Material-UI) application.",
   "scripts": {
-    "build": "browserify -t [ babelify --presets [ @babel/preset-env @babel/preset-react ] ] src/App.js -o public/App.js",
+    "build": "browserify -t [ babelify --presets [ @babel/preset-env @babel/preset-react ] ] src/App.jsx -o public/App.js",
     "run": "node Server.js"
   },
   "author": "yamachan / Toshio Yamashita",

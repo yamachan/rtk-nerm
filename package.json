@@ -4,8 +4,9 @@
   "description": "Simple transcode environment for NERM (Node.js + Express + React + Material-UI) application.",
   "scripts": {
     "build": "browserify -t [ babelify --presets [ @babel/preset-env @babel/preset-react ] ] src/App.jsx -o public/App.js",
-    "run": "node Server.js"
+    "start": "node Server.js"
   },
+  "engines": { "node": ">= 8" },
   "author": "yamachan / Toshio Yamashita",
   "license": "MIT",
   "dependencies": {
